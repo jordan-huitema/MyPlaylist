@@ -14,7 +14,7 @@ const title = document.getElementById('title')
 const cover = document.getElementById('cover')
 
 // Songs titles array
-const songs = ['blue-feet-gus-reeves', 'slow-snow', 'the-roads'];
+const songs = ['blue-reeves', 'slow-snow', 'the-roads'];
 
 //Keep track of song 
 let songIndex = 2;
