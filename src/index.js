@@ -83,6 +83,7 @@ function updateProgress(e) {
 
 // Set Progress bar
 function setProgress(e) {
+//   *This* refers to the parent object being passed into the funcation, in this case its the parent element
   const width = this.clientWidth
   const clickX = e.offsetX
   const duration = audio.duration
